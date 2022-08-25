@@ -1,0 +1,94 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: auto;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+p,
+img {
+  /* margin: 0; */
+}
+
+.container {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+  /* border: 2px solid rgb(239, 13, 13); */
+}
+.header-card {
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-card h1:first-child {
+  font-weight: 300;
+  color: hsl(229, 6%, 66%);
+}
+
+.header-card h1:last-of-type {
+  color: hsl(234, 12%, 34%);
+}
+
+.header-card p {
+  color: hsl(229, 6%, 66%);
+  font-size: larger;
+}
+
+/* styling all cards */
+.all-cards {
+  /* background: lavenderblush; */
+  padding: 30px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px -5px;
+}
+
+.all-cards img {
+  align-self: flex-end;
+}
+
+.all-cards h1 {
+  color: hsl(234, 12%, 34%);
+}
+
+.all-cards p {
+  color: hsl(229, 6%, 66%);
+  line-height: 1.8;
+  margin-top: 0;
+}
+
+/* styling each card */
+.first-card {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+.second-card {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+.third-card {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+.fourth-card {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* - Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%) */
