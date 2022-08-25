@@ -25,11 +25,13 @@ body {
 
 .header-card h1:first-child {
   font-weight: 300;
+  margin-bottom: 0%;
   color: hsl(229, 6%, 66%);
 }
 
 .header-card h1:last-of-type {
   color: hsl(234, 12%, 34%);
+  margin-top: 5px;
 }
 
 .header-card p {
@@ -49,7 +51,7 @@ body {
   display: flex;
   border-radius: 10px;
   flex-direction: column;
-  box-shadow: 1px 1px 10px -5px;
+  box-shadow: 1px 1px 20px -10px;
 }
 
 .cards img {
@@ -80,38 +82,30 @@ body {
   border-top: 4px solid hsl(212, 86%, 64%);
 }
 
+.flex-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 @media screen and (min-width: 768px) {
-  .container {
-    /* width: 100%; */
+  .cards {
+    width: 190px;
   }
 
   .all-cards {
-    /* width: 900px; */
-    /* height: 600px; */
     flex-direction: row;
-    /* flex-shrink: 1; */
-    align-self: center;
-    /* justify-items: center; */
-    justify-content: center;
     align-items: center;
-    border: 2px solid green;
-    /* flex-basis: 200px; */
+    align-content: center;
+    flex-shrink: ;
   }
 
-  .cards {
-    /* flex: 1; */
-    /* height: 135px;
-    width: 190px; */
+  .container {
+    width: 800px;
+    align-items: center;
   }
 
-  /* .second-card {
-    align-self: flex-start;
-    justify-self: flex-start;
+  .header-card {
+    width: 480px;
   }
-
-  .third-card {
-    align-self: flex-end;
-    justify-self: center;
-    margin-right: 500px;
-  } */
 }
